@@ -2,6 +2,7 @@
 name: Hello
 
 # run on trigger
+# Deployment fron Automatic Triggers
 on:
   push:
     branches: [main]
