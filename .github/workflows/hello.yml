@@ -4,7 +4,10 @@ name: Hello
 # run on trigger
 # Deployment fron Automatic Triggers
 on:
-  workflow_dispatch: 
+  push:
+    branches: [mian]
+    paths:
+      - "**.html"
 
 jobs:
   # it is the job name 
