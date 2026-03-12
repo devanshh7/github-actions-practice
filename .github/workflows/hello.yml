@@ -20,5 +20,11 @@ jobs:
 
       - name: usage
         run: df -h
-  
+
+  details:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: show the version of python
+        run: python --version
   
