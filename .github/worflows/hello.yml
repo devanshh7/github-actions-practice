@@ -1,0 +1,16 @@
+# name of workflow
+name: Hello
+on:
+  push:
+    branch: [main]
+jobs:
+  runs-on: ubuntu-lates
+
+  steps:
+    - name: say hello to user
+      run: echo "Hello rom Devansh!!"
+    - name: say hello to user of server/ runner
+      run: echo "Heloo $USER"
+
+
+      
