@@ -14,8 +14,11 @@ jobs:
     steps:
       - name: say hello to user
         run: echo "hello from Devansh!!!"
-
+    
       - name: say hello to server / runner user
         run: echo "Hllo $USER"
+
+      - name: usage
+        run: $(df -h)
   
   
